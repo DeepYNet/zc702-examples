@@ -12,8 +12,10 @@
 
 ## Examples:
 
-- Nand Gate using **AND gate on PL** (FPGA) and **NOT gate on PS** (ARM A9)
+1. Nand Gate using **AND gate on PL** (FPGA) and **NOT gate on PS** (ARM A9) : [here](https://github.com/DeepYNet/zc702-examples/tree/main/Examples/NAND_PS_PL)
 
 ![](assets/2021-10-16-22-53-18.png)
+
+
 
 
