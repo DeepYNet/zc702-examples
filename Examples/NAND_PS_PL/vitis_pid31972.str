@@ -1,0 +1,106 @@
+/*
+
+Xilinx Vitis v2020.2.0 (64-bit) [Major: 2020, Minor: 2]
+SW Build 3064172 on 2020-11-18-06:24:19
+
+Process ID (PID): 31972
+License: Customer
+
+Current time: 	Fri Oct 15 00:06:41 IST 2021
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 4.15.0-159-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1360x768
+Available screens: 2
+Available disk space: 134 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2020.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu/18:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib/:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib//server:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu/18:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/python-3.8.3/lib::/home/omkar/shakti-tools/riscv64/lib:/home/omkar/shakti-tools/riscv64/lib:/tools/Xilinx/Vivado/2020.2/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	omkar
+User home directory: /home/omkar
+User working directory: /home/omkar/SRA/FYP/RTL_projects/zc702-examples
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.2/bin
+
+Vitis preferences directory: /home/omkar/.Xilinx/Vitis/2020.2/
+Vitis workspace directory: /home/omkar/SRA/FYP/RTL_projects/zc702-examples/workspace
+Vitis workspace log file location: /home/omkar/SRA/FYP/RTL_projects/zc702-examples/workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: /home/omkar/altera/15.0/hld
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.2
+XILINX_SDK: /tools/Xilinx/Vitis/2020.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.2
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectMenuItem("File", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("Open File", "WorkbenchWindow", "MenuItem.OPEN_FILE");
+activateView("Welcome", "ViewIntroAdapterPart", "CTabItem.WELCOME");
+selectCheckBox("Hide projects that already exist in the workspace", Boolean.FALSE, "Welcome", "ViewIntroAdapterPart", "Button.HIDE_PROJECTS_THAT");
+selectButton("Cancel", "Import Projects (Import Type)", "SdxArchiveImportWizard", "Button.CANCEL");
+selectMenuItem("File", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Platform Project", "WorkbenchWindow", "MenuItem.PLATFORM_PROJECT");
+setTextField("zc702_edt", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Text.PLATFORM_PROJECT_NAME");
+selectButton("Next", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Button.NEXT");
+selectCombo("zc702", "New Platform Project (Platform)", "NewPlatformProjectWizard", "ComboViewer.XSA_FILE");
+selectButton("Browse", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.BROWSE");
+cancelFileDialog("Create Platform from XSA", "SDXFileDialog", "Button.CANCEL");
+selectMenuItem("File", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Platform Project", "WorkbenchWindow", "MenuItem.PLATFORM_PROJECT");
+selectButton("Next", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Button.NEXT");
+setTextField("zc702_edt", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Text.PLATFORM_PROJECT_NAME");
+selectButton("Browse", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.BROWSE");
+cancelFileDialog("Create Platform from XSA", "SDXFileDialog", "Button.CANCEL");
+selectButton("Browse", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.BROWSE");
+setFileDialog("/home/omkar/SRA/FYP/RTL_projects/zc702-examples/nand_gate/design_1_wrapper.xsa", "Create Platform from XSA", "SDXFileDialog", "Button.OK");
+selectButton("Finish", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.FINISH");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectMenuItem("File", "zc702_edt", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "zc702_edt", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Application Project", "zc702_edt", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Platform)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Cancel", "New Application Project (Platform)", "NewAppProjectWizard", "Button.CANCEL");
+selectTreeTable("design_1_wrapper.xsa", "zc702_edt > hw", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+closeView("design_1_wrapper.xsa", "/home/omkar/SRA/FYP/RTL_projects/zc702-examples/nand_gate/design_1_wrapper.xsa", "HwSpecEditor", "CTabItem.DESIGN_1_WRAPPER_XSA");
+closeView("zc702_edt", "zc702_edt/platform.spr", "ScwEditor", "CTabItem.ZC702_EDT");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("zc702_edt", "zc702_edt > hw", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");

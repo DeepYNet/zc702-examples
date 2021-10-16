@@ -1,0 +1,7 @@
+/*zc702_edt*/
+the_ROM_image:
+{
+  [bootloader]<zc702_edt/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

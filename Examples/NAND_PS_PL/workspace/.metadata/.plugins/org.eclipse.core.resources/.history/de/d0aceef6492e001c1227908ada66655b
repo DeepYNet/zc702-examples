@@ -1,0 +1,18 @@
+//PL to PS interface interconnect
+
+#include <stdio.h>
+#include "platform.h"
+#include "xgpio.h"
+#include "xparameters.h"
+
+
+int main()
+{
+    init_platform();	//Initialize the platform
+    XGpio input, output;
+    int a; 				// Not gate's Input is A which comes from PL
+
+
+    cleanup_platform(); //Close the platform
+    return 0;
+}
